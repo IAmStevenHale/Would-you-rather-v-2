@@ -240,6 +240,6 @@ button:not(:hover) {
   }
   .instructionCard {
     width: 80vw;
-    height: 80vh;
+    height: 75vh;
   }
 }
