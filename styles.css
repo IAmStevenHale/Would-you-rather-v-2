@@ -17,6 +17,9 @@ html {
   width: 100vw;
   background-color: #8b0000;
   z-index: 0;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 h1 {
