@@ -20,6 +20,7 @@ html {
   overflow: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  position: relative;
 }
 
 h1 {
