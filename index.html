@@ -12,8 +12,13 @@
 <body>
     <div class="mainContainer">
         <div class="titlePage">
+            <div class="titleContainer">
+                <div class="title">Would You Rather?</div>
+                <img class='lipsIcon' src="https://img.icons8.com/emoji/96/000000/kiss-mark.png" />
+            </div>
+
             <button onclick="goToPlayPage()" class="startButton">START</button>
-            <button onclick="goToInstructionsPage()" class="startButton">INSTUCTIONS</button>
+            <button onclick="goToInstructionsPage()" class="startButton">INSTRUCTIONS</button>
         </div>
         <div class="playPage">
             <div class="playContainer">
@@ -26,9 +31,23 @@
                 </div>
             </div>
             <button class="button" id="newCard" onclick="nextCard()">NEXT CARD</button>
-            <button onclick="goToTitlePage('playPage')" class="startButton">MENU </button>
+            <button onclick="goToTitlePage('playPage')" class="startButton">BACK TO MENU </button>
         </div>
-        <div class="instructionsPage">TEST
+        <div class="instructionsPage">
+            <div class="instructionCard">Read the cards aloud and give some time for deliberation, guilt-tripping and
+                arguing.
+                <br />
+                <br />
+                On the count of 3 everyone votes for their chosen card.<br />Vote by holding up one finger for the first
+                card
+                read out loud or two fingers for the second card read out.
+                <br />
+                <br />
+                Whichever card has the MOST votes, each player who voted for that card must drink - everyone else is
+                safe.
+                <br />
+                In the case of a tie everyone drinks (sorry, not sorry).
+            </div>
             <button onclick="goToTitlePage('instructionsPage')" class="startButton">BACK</button>
         </div>
     </div>

@@ -129,8 +129,6 @@ function goToPlayPage() {
   currentPage = 'playPage';
   titlePage.classList.remove('moveOnToScreen');
   titlePage.classList.add('moveOffScreen');
-  instructionsPage.classList.remove('moveOnToScreen');
-  instructionsPage.classList.add('moveOffScreen');
   playPage.classList.add('moveOnToScreen');
 }
 
